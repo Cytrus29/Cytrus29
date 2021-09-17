@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from server.connect import *
-from server import add, check, edit, delete, search
+from server import add, check, edit, connect, delete, search
 
 app = FastAPI()
 
